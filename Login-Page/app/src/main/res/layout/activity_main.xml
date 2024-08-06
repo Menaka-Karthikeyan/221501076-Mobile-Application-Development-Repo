@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_page"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHeading"
+        android:layout_marginTop="40dp"
+        android:autofillHints=""
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:layout_below="@id/etUsername"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:padding="16dp"
+        android:layout_below="@id/etPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/pale_turquoise">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_details"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_36dp"
+        android:textColor="@color/dark_blue"
+        android:layout_marginBottom="@dimen/_36dp"
+        tools:ignore="SpUsage" />
+
+    <EditText
+        android:id="@+id/etRollNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/roll_no"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="@color/dark_blue"
+        android:textColorHint="@color/blue"
+        tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@color/dark_blue"
+        android:textColorHint="@color/blue"
+        tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/etMarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/marks"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="@color/dark_blue"
+        android:textColorHint="@color/blue"
+        android:layout_marginBottom="30dp"
+        tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/insert"
+        android:backgroundTint="@color/alice_blue"
+        android:textColor="@color/dark_purple"
+        android:layout_marginBottom="10dp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:backgroundTint="@color/alice_blue"
+        android:textColor="@color/dark_purple"
+        android:layout_marginBottom="10dp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:backgroundTint="@color/alice_blue"
+        android:textColor="@color/dark_purple"
+        android:layout_marginBottom="10dp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_details"
+        android:backgroundTint="@color/alice_blue"
+        android:textColor="@color/dark_purple"
+        android:layout_marginBottom="10dp"
+        tools:ignore="VisualLintButtonSize" />
+</LinearLayout>

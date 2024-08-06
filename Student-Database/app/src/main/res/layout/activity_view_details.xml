@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/honeydew">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:background="@color/soft_peach"
+        tools:ignore="UselessParent">
+
+        <TableRow tools:ignore="UselessParent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/s_no"
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:textColor="@color/dark_purple" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/roll_no"
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:textColor="@color/dark_purple" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:textColor="@color/dark_purple" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marks"
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:textColor="@color/dark_purple" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,124 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/pastel_beige">
+
+    <ScrollView
+        android:id="@+id/scroller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24sp"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:padding="8dp"
+            android:text="@string/_0"
+            android:textSize="64sp"
+            android:background="@color/pastel_turquoise"
+            android:textColor="@color/black"
+            android:layout_marginBottom="16dp" />
+    </ScrollView>
+
+    <GridLayout
+        android:id="@+id/buttonGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignMargins"
+        android:layout_below="@+id/scroller"
+        android:columnCount="4"
+        android:rowCount="6"
+        android:layout_gravity="center">
+
+        <Button android:id="@+id/btnClear" android:text="@string/clear" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/purple"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnLn" android:text="@string/ln" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnSqrt" android:text="@string/sqrt" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnPower" android:text="@string/circumflex" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnBackspace" android:text="@string/backspace" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnOpenParen" android:text="@string/open_paren" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnCloseParen" android:text="@string/close_paren" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnExp" android:text="@string/exp" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnSin" android:text="@string/sin" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnCos" android:text="@string/cos" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnTan" android:text="@string/tan" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnLog" android:text="@string/log" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnDivide" android:text="@string/forward_slash" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btn7" android:text="@string/_7" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btn8" android:text="@string/_8" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btn9" android:text="@string/_9" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnMultiply" android:text="@string/asterisk" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btn4" android:text="@string/_4" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btn5" android:text="@string/_5" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btn6" android:text="@string/_6" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnSubtract" android:text="@string/minus" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btn1" android:text="@string/_1" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btn2" android:text="@string/_2" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btn3" android:text="@string/_3" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnAdd" android:text="@string/plus" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btn0" android:text="@string/_0" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize,DuplicateSpeakableTextCheck" />
+        <Button android:id="@+id/btnDot" android:text="@string/dot" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+        <Button android:id="@+id/btnEquals" android:text="@string/equal_to" style="@style/CalcButton"
+            android:backgroundTint="@color/pastel_lavender" android:textColor="@color/blue"
+            tools:ignore="VisualLintButtonSize" />
+    </GridLayout>
+</RelativeLayout>

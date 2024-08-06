@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Text Modifier</string>
+    <string name="hello_menaka">Hello, Menaka!</string>
+    <string name="modify_text">Modify Text</string>
+</resources>

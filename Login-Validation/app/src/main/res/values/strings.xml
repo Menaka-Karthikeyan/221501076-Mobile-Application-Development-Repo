@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Login Validation</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_id">Enter ID</string>
+    <string name="validate">Validate</string>
+    <string name="login_here">Login Here!</string>
+    <string name="login_here_with_credentials">Login here with Credentials!</string>
+    <string name="_2024_menaka">© 2024 Menaka</string>
+    <string name="register">Register</string>
+</resources>

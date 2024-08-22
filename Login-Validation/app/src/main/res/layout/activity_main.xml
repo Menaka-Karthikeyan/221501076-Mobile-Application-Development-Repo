@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/m3_ref_palette_dynamic_primary95"
+    tools:ignore="PrivateResource">
+
+    <TextView
+        android:id="@+id/LoginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_here_with_credentials"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/system_accent1_700"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="96dp" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LoginTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/enter_username"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="@color/indigo"
+        android:backgroundTint="?attr/elevationOverlayColor"
+        android:textColor="?attr/colorPrimarySurface"
+        tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/idEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="36dp"
+        android:hint="@string/enter_id"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="@color/indigo"
+        android:backgroundTint="?attr/elevationOverlayColor"
+        android:textColor="?attr/colorPrimarySurface"
+        tools:ignore="Autofill,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idEditText"
+        android:layout_marginTop="16dp"
+        android:text="@string/register"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/system_accent1_800" />
+
+    <Button
+        android:id="@+id/validateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerButton"
+        android:layout_marginTop="16dp"
+        android:text="@string/validate"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/system_accent1_800" />
+
+    <TextView
+        android:id="@+id/copyrightTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:text="@string/_2024_menaka"
+        android:textColor="@color/m3_ref_palette_dynamic_neutral_variant20"
+        android:textSize="14sp" />
+</RelativeLayout>

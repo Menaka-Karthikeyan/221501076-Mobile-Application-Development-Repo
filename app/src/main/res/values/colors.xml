@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="dark_blue">#FF00008B</color>
+    <color name="dark_purple">#FF4B0082</color>
+    <color name="alice_blue">#FFF0F8FF</color>
+    <color name="honeydew">#FFF0FFF0</color>
+    <color name="soft_peach">#FFFFDAB9</color>
+    <color name="pale_turquoise">#FFAFEEEE</color>
+    <color name="misty_rose">#FFFFE4E1</color>
+    <color name="purple">#FF800080</color>
+</resources>

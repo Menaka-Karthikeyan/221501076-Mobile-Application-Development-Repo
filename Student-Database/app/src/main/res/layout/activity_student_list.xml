@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/honeydew">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        tools:ignore="UselessParent,SpeakableTextPresentCheck">
+
+        <TableLayout
+            android:id="@+id/tableLayoutStudentList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:stretchColumns="1,2,3,4,5,6,7,8">
+
+            <!-- Header Row will be added programmatically -->
+        </TableLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

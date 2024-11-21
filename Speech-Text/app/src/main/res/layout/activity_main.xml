@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/txtHdr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/speech_text_convertor"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/indigo"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/btnSpeechToText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/convert_speech_to_text"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtHdr"
+        android:backgroundTint="@color/dark_orchid"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/outputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recognized_text_will_appear_here"
+        android:layout_below="@id/btnSpeechToText"
+        android:textColor="@color/rebecca_purple"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/copyrightTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:text="@string/_2024_menaka"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+</RelativeLayout>
